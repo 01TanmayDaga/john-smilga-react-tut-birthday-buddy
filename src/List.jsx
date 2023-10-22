@@ -1,5 +1,5 @@
 import Person from "./Person";
-export default List = (people) => {
+const List = (people) => {
   return (
     <>
       {people.people.map((item) => {
@@ -8,3 +8,4 @@ export default List = (people) => {
     </>
   );
 };
+export default List;
